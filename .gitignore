@@ -11,4 +11,4 @@ dist
 .idea
 
 .graphqlconfig
-.schema.graphql
+schema.graphql
