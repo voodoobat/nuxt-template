@@ -7,7 +7,7 @@ const config: CodegenConfig = {
   overwrite: true,
   schema: process.env.GRAPHQL_URL,
   generates: {
-    'gql/schema/types.ts': {
+    'graphql/schema/types.ts': {
       plugins: ['typescript'],
     },
   },

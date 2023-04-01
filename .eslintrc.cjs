@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  ignorePatterns: ['gql/*'],
+  ignorePatterns: ['graphql/*'],
   extends: ['@nuxtjs/eslint-config-typescript'],
   rules: {
     'vue/no-multiple-template-root': 0,
