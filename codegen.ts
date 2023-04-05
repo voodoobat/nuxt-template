@@ -5,9 +5,9 @@ dotenv.config({ path: '.env' })
 
 const config: CodegenConfig = {
   overwrite: true,
-  schema: './schema.graphql',
+  schema: process.env.GRAPHQL_URL || './schema.graphql',
   generates: {
-    'generated/schema.ts': {
+    'generated/schema.d.ts': {
       plugins: ['typescript'],
     },
   },
